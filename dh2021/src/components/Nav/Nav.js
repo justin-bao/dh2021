@@ -1,7 +1,7 @@
 import React from "react";
 import {Nav, Navbar, Container} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/Nav.css"
+import "./Nav.css"
 // import Link from "react-router-dom";
 
 export default class Navigation extends React.Component {
