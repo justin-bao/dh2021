@@ -1,3 +1,12 @@
 NavBar {
   width: 100%;
+  margin-right: 47.7rem;
+}
+
+.nav-item {
+  margin-left: 10rem;
+}
+
+#container-size {
+  margin-right: 47.7rem;
 }

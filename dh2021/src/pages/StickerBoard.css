@@ -1,0 +1,10 @@
+#sticker-board {
+  color: white;
+  display: inline-block;
+  width:10rem;
+  height:10rem;
+}
+
+div {
+  display: inline-block;
+}
