@@ -15,7 +15,7 @@ function LearnBox(props) {
     if (answer === question.correct_answer) {
       console.log(props.user);
       alert("You got it!");
-      fetch('/add-stickers', {
+      fetch('/api/add-stickers', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -34,7 +34,7 @@ function LearnBox(props) {
 
   const handleNewQuestionSubmit = (event) => {
     event.preventDefault();
-    fetch('http://localhost:9000/question?subject=' + props.text.toLowerCase())
+    fetch('/api/question?subject=' + props.text.toLowerCase())
     .then(response => response.json())
     .then(data => {
       console.log(question);

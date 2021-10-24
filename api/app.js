@@ -37,16 +37,16 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.use('/', indexRouter);
+app.use('/api', indexRouter);
 
-app.use('/user', userRouter);
+app.use('/api/user', userRouter);
 
-app.use('/stickers-list', stickersListRouter);
-app.use('/sticker', stickerRouter);
-app.use('/new-sticker', newStickerRouter);
-app.use('/add-stickers', addStickersRouter);
+app.use('/api/stickers-list', stickersListRouter);
+app.use('/api/sticker', stickerRouter);
+app.use('/api/new-sticker', newStickerRouter);
+app.use('/api/add-stickers', addStickersRouter);
 
-app.use('/question', questionRouter);
+app.use('/api/question', questionRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
