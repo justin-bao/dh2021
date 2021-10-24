@@ -14,12 +14,12 @@ export default class Navigation extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navContainer mr-auto">
               {/* <Nav.Link className= "mr-sm-2 navText" style={{color: "black", fontSize: "1.5rem", fontWeight: "bold"}} href="/goals">Goals</Nav.Link> */}
-              <Nav.Link href="/goals" class="nav-item">Goals</Nav.Link>
-              <Nav.Link href="/stickerboard" class="nav-item">Sticker Board</Nav.Link>
+              <Nav.Link href="/goals" className="nav-item">Goals</Nav.Link>
+              <Nav.Link href="/stickerboard" className="nav-item">Sticker Board</Nav.Link>
               {/* <Nav.Link href="/calendar" class="nav-item">Calendar</Nav.Link> */}
-              <Nav.Link href="/learn" class="nav-item">Let's Learn!</Nav.Link>
+              <Nav.Link href="/learn" className="nav-item">Let's Learn!</Nav.Link>
               {/* <Nav.Link href="/findfriend" class="nav-item">Find a Friend</Nav.Link> */}
-              <Nav.Link href="/break" class="nav-item">Take a Break</Nav.Link>
+              <Nav.Link href="/break" className="nav-item">Take a Break</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

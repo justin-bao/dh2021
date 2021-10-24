@@ -10,7 +10,7 @@ function Learn() {
       <h1>Let's Learn!</h1>
       <div id="learn-boxes">
         <LearnBox text="Math" />
-        <LearnBox text="Art" />
+        <LearnBox text="Art" user="Justin Bao" />
         <LearnBox text="Reading" />
         <LearnBox text="Science" />
         <LearnBox text="History" />

@@ -7,7 +7,6 @@ require('firebase/database');
 var database = firebase.database();
 
 router.post('/', function(req, res, next) {
-  console.log(req.body);
   database.ref("users/" + req.body.user + "/stickers-remaining").once('value')
   .then((snapshot) => {
     return snapshot.val();

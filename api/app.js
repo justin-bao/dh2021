@@ -16,6 +16,9 @@ var stickerRouter = require('./routes/sticker');
 var newStickerRouter = require('./routes/new-sticker');
 var addStickersRouter = require('./routes/add-stickers')
 
+// question endpoints
+var questionRouter = require('./routes/question')
+
 var app = express();
 
 // view engine setup
@@ -42,6 +45,8 @@ app.use('/stickers-list', stickersListRouter);
 app.use('/sticker', stickerRouter);
 app.use('/new-sticker', newStickerRouter);
 app.use('/add-stickers', addStickersRouter);
+
+app.use('/question', questionRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
