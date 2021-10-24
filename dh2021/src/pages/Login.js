@@ -23,6 +23,8 @@ const uiConfig = {
 };
 
 function Login() {
+  document.body.style.backgroundColor = "#BCD1E4";
+
   const [isNavToggled, setIsNavToggled] = useState(false);
 
   // changed from decomposed instantiation to prevent ESLint

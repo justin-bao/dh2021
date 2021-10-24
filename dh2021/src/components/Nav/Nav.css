@@ -4,9 +4,14 @@ NavBar {
 }
 
 .nav-item {
-  margin-left: 10rem;
+  margin-left: 5rem;  
+  width: 100px;
 }
 
 #container-size {
   margin-right: 47.7rem;
+}
+
+.navbar-custom {
+  background-color: #2A2C64 !important;
 }

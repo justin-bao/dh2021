@@ -2,6 +2,7 @@ import React from "react";
 import {Nav, Navbar, Container} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Nav.css"
+import Logo from "../../imgs/logo2.png"
 // import Link from "react-router-dom";
 
 export default class Navigation extends React.Component {
@@ -9,7 +10,10 @@ export default class Navigation extends React.Component {
     return (
       <Navbar bg="light" expand="lg">
         <Container id="container-size">
-          <Navbar.Brand href="/">Noctua</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img src={Logo} alt="Noctua Logo: Noctua text with owl wings" width="180px"/>
+            {/* Noctua */}
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navContainer mr-auto">
