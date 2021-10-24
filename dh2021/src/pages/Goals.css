@@ -12,15 +12,20 @@
   padding-bottom: 12px;
 }
 
-#goals {
-  display: inline-block;
+#goal-components {
+  display: flex;
 }
 
-#goals div {
-  display: inline-block;
+.todo {
+  font-size: 30px;
+  padding-left: 10px;
+  margin-left: 40px;
+  padding-top: 30px;
+  list-style-type: none;
+  color: white;
 }
 
-#purple-square {
+.purple-square {
   background: #2A2C64;
   opacity: 28%;
   height: 500px;
@@ -29,6 +34,21 @@
   border-radius: 30px;
 }
 
-#in-progress {
-  color: white;
+#completed img {
+  margin-bottom: 9px;
+  margin-right: 9px;
 }
+
+#in-progress input {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+
+.todo li {
+  margin-bottom: 15px;
+}
+
+/* #in-progress input {
+  width: 1px;
+} */
