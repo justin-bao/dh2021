@@ -1,6 +1,6 @@
 import React from "react";
 // import Checkbox from "../components/Checkbox.js";
-import Bullets from "../Bullets.js";
+import Bullets from "../Bullets/Bullets.js";
 import "./GoalsComponent.css"
 
 

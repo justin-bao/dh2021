@@ -3,11 +3,7 @@ import React from "react"
 function Bullets(props) {
   return (
     <div>
-      <ul
-        // style={{
-        //   list-style-image: url(props.path)
-        // }}
-      >
+      <ul id="stars">
         
       </ul>
       <h1>bullets</h1>
