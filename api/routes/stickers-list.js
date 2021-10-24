@@ -5,11 +5,6 @@ var firebase = require('firebase/app');
 require('firebase/database');
 
 /* GET list of available stickers. */
-var corsOptions = {
-  origin: '*',
-  optionsSuccessStatus: 200
-}
-
 var database = firebase.database();
 
 router.get('/', function(req, res, next) {
@@ -17,7 +12,6 @@ router.get('/', function(req, res, next) {
     const stickers_dict = snapshot.val();
     res.send(Object.keys(stickers_dict));
   });
-  
 });
 
 module.exports = router;

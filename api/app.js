@@ -6,12 +6,15 @@ var logger = require('morgan');
 
 // misc endpoints
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+
+// user endpoints
+var userRouter = require('./routes/user')
 
 // sticker endpoints
 var stickersListRouter = require('./routes/stickers-list');
 var stickerRouter = require('./routes/sticker');
 var newStickerRouter = require('./routes/new-sticker');
+var addStickersRouter = require('./routes/add-stickers')
 
 var app = express();
 
@@ -32,10 +35,13 @@ app.use(function(req, res, next) {
 });
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+
+app.use('/user', userRouter);
+
 app.use('/stickers-list', stickersListRouter);
 app.use('/sticker', stickerRouter);
 app.use('/new-sticker', newStickerRouter);
+app.use('/add-stickers', addStickersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

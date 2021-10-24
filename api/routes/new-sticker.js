@@ -24,6 +24,7 @@ router.post('/', function(req, res, next) {
       database.ref('stickers-list').set(sticker);
     }); */
   database.ref("stickers-list/" + req.body.name).set(req.body.url);
+  res.send("yay");
 });
 
 module.exports = router;

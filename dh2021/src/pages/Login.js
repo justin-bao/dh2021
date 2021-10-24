@@ -74,7 +74,7 @@ function Login() {
         </div>
 
         <section id='landing'>
-          <h1>let's get stuff done together.</h1>
+          <h1>Let's learn together.</h1>
           <i className="fab fa-pagelines" aria-label="leaf"></i>
           <i className="fab fa-pagelines" aria-label="leaf"></i>
           <i className="fab fa-pagelines" aria-label="leaf"></i>
