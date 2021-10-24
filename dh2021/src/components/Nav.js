@@ -1,6 +1,7 @@
 import React from "react";
 import {Nav, Navbar, Container} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../components/Nav.css"
 // import Link from "react-router-dom";
 
 export default class Navigation extends React.Component {
@@ -12,7 +13,8 @@ export default class Navigation extends React.Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navContainer mr-auto">
-              <Nav.Link className= "mr-sm-2 navText" style={{color: "black", fontSize: "1.5rem", fontWeight: "bold"}} href="/goals">Goals</Nav.Link>
+              {/* <Nav.Link className= "mr-sm-2 navText" style={{color: "black", fontSize: "1.5rem", fontWeight: "bold"}} href="/goals">Goals</Nav.Link> */}
+              <Nav.Link href="/goals">Goals</Nav.Link>
               <Nav.Link href="/stickerboard">Sticker Board</Nav.Link>
               <Nav.Link href="/calendar">Calendar</Nav.Link>
               <Nav.Link href="/learn">Let's Learn!</Nav.Link>

@@ -1,13 +1,14 @@
 import React from "react";
-import Checkbox from "../components/Checkbox.js";
-import Bullets from "../components/Bullets.js";
+// import Checkbox from "../components/Checkbox.js";
+import Bullets from "../Bullets.js";
+import "./GoalsComponent.css"
 
 
 function GoalsComponent(props) {
   return (
     <div>
-      <h1>{props.text}</h1>
-      <div className="purple-square">
+      <h2>{props.text}</h2>
+      <div id="purple-square">
         <Bullets path="../imgs/star.dms"/>
       </div>
     </div>

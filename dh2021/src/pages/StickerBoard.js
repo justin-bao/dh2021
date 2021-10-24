@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../components/Button.js";
 
 function StickerBoard() {
+  document.body.style.backgroundColor = "#BCD1E4";
   return (
     <div>
     </div>
