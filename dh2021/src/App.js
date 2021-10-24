@@ -8,13 +8,6 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   const [response, setResponse] = useState("");
-  
-  useEffect(() => {
-    fetch("http://localhost:9000/testAPI")
-      .then(res => res.text())
-      .then(res => setResponse(res))
-      .catch(err => err);
-  }, [])
 
   return (
     <BrowserRouter>
