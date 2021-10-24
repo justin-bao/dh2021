@@ -8,3 +8,8 @@
 #learn {
   display: inline;
 }
+
+#learn-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}

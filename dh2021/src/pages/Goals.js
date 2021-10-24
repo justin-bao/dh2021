@@ -9,8 +9,41 @@ function Goals() {
   return (
     <div id="goals">
       <h1>My Goals</h1>
-      <GoalsComponent text="In Progress"/>
-      <GoalsComponent text="Completed" />
+      <div id="goal-components">
+        {/* <GoalsComponent text="In Progress"/>
+        <GoalsComponent text="Completed" /> */}
+
+        <div id="in-progress">
+          <h2>In Progress</h2>
+          <div id="purple-square">
+            <li className="todo stack-small">
+              <div className="c-cb">
+                <input id="todo-0" type="checkbox"/>
+                <label>
+                  Count to 20
+                </label>
+              </div>
+            </li>
+            <li className="todo stack-small">
+              <div className="c-cb">
+                <input id="todo-0" type="checkbox"/>
+                <label>
+                  Practice Grammar
+                </label>
+              </div>
+            </li>
+          </div>
+        </div>
+
+        <div id="completed">
+          <h2>Completed</h2>
+          <div id="purple-square">
+            
+          </div>
+        </div>
+
+
+      </div>
     </div>
   );
 }

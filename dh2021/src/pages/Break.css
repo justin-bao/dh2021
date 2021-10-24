@@ -19,3 +19,10 @@
   color: white;
   padding-left: 70px;
 }
+
+#break img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

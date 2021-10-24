@@ -13,7 +13,8 @@ function Break() {
         Is your brain tired? Meditation helps to not only refresh yourself mentally, but also to improve sleep,
         focus, and to relieve stress, allowing you to be more focused and learn more effectively afterwards!
       </p>
-      <img src={Target} alt="Pastel colored target" width="200" height="100" />
+      <p>Breathe in...</p>
+      <img src={Target} alt="Pastel colored target" width="300" height="300" />
     </div>
   )
 }

@@ -8,12 +8,14 @@ function Learn() {
   return (
     <div id="learn">
       <h1>Let's Learn!</h1>
-      <LearnBox text="Math" />
-      <LearnBox text="Art" />
-      <LearnBox text="Reading" />
-      <LearnBox text="Science" />
-      <LearnBox text="History" />
-      <LearnBox text="Tech" />
+      <div id="learn-boxes">
+        <LearnBox text="Math" />
+        <LearnBox text="Art" />
+        <LearnBox text="Reading" />
+        <LearnBox text="Science" />
+        <LearnBox text="History" />
+        <LearnBox text="Tech" />
+      </div>
     </div>
   )
 }
