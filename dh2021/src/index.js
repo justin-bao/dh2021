@@ -4,11 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/database';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import firebase from "firebase/app";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBTZRZ1z8WQno5-jYkW806SjaWSUiu-QY4",
@@ -21,8 +17,7 @@ const firebaseConfig = {
   measurementId: "G-F691Z2G3B5"
 };
 
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const app = firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(
   <React.StrictMode>
