@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from "react";
+import Router from "./components/Router.js";
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   const [response, setResponse] = useState("");
@@ -13,6 +15,12 @@ function App() {
   }, [])
 
   return (
+    <BrowserRouter>
+      <Router></Router>
+    </BrowserRouter>
+    
+  );
+  /*return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -30,7 +38,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  );*/
 }
 
 export default App;

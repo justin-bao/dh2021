@@ -4,7 +4,7 @@ import Button from "../components/Button.js";
 function Login() {
   return (
     <div>
-      <Button path="goals.js" buttonType="" text="LOGIN" />
+      <Button path="/goals" buttonType="" text="LOGIN" />
     </div>
   )
 }
