@@ -12,7 +12,7 @@ function Goals() {
       <GoalsComponent text="In Progress"/>
       <GoalsComponent text="Completed" />
     </div>
-  )
+  );
 }
 
 export default Goals;

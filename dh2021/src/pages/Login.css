@@ -1,0 +1,9 @@
+#login h1 {
+  font-size: 55px;
+  text-align: center;
+}
+
+#login {
+  text-align: center;
+  display: block;
+}
