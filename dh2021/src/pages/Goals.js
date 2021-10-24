@@ -5,7 +5,7 @@ import GoalsComponent from "../components/GoalsComponent.js"
 function Goals() {
   return (
     <div>
-      <GoalsComponent />
+      <GoalsComponent text="test"/>
     </div>
   )
 }

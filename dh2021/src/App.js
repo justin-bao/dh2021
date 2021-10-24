@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from "react";
 import Router from "./components/Router.js";
+import Navigation from "./components/Nav.js";
 import { BrowserRouter } from 'react-router-dom';
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [response, setResponse] = useState("");
@@ -16,6 +18,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Navigation />
       <Router></Router>
     </BrowserRouter>
     

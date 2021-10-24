@@ -11,12 +11,12 @@ import StickerBoard from "../pages/StickerBoard.js";
 function Router() {
   const routes = [
     {path: "/", Component: Login},
-    //{path: "/break", Component: Break},
-    //{path: "/calendar", Component: Calendar},
-    //{path: "/findfriend", Component: FindFriend},
-    //{path: "/goals", Component: Goals},
-    //{path: "/learn", Component: Learn},
-    //{path: "/stickerboard", Component: StickerBoard},
+    {path: "/break", Component: Break},
+    {path: "/calendar", Component: Calendar},
+    {path: "/findfriend", Component: FindFriend},
+    {path: "/goals", Component: Goals},
+    {path: "/learn", Component: Learn},
+    {path: "/stickerboard", Component: StickerBoard}
   ];
 
   let location = useLocation();
