@@ -1,10 +1,10 @@
-h1 {
+#goals h1 {
   color: white;
   padding-left: 70px;
   padding-top: 40px;
 }
 
-h2 {
+#goals h2 {
   color: white;
   font-size: 20px;
   padding-left: 70px;
