@@ -1,10 +1,14 @@
 #sticker-board {
   color: white;
-  display: inline-block;
-  width:10rem;
-  height:10rem;
+  display: inline;
+  text-align: center;
 }
 
-div {
-  display: inline-block;
+#sticker-elements {
+  display: flex;
+  margin-top: 40px;
+}
+
+#sticker-board h3 {
+  margin-left: 50px;
 }

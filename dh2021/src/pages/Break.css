@@ -1,0 +1,21 @@
+#break h1 {
+  color: white;
+  padding-left: 70px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#break h2 {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+#break p {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+#break h1, #break h2, #break p {
+  color: white;
+  padding-left: 70px;
+}
